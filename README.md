@@ -16,4 +16,4 @@ If a python script entraps its code within a `__name__ == "__main__"`, it will n
 
 If a python script uses implicit IDA modules (e.g. ida_kernwin) without explicitly importing the module, it will fail. TLDR, make sure all module code invokations fall under `idaapi`.
 
-Also retrying scripts randomly crash IDA. I'm not sure why, but I think it has to do with modifying global variables.
+Also retrying some scripts can randomly crash IDA. I'm not sure why, but I think it has to do with modifying global variables.
