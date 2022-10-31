@@ -25,7 +25,6 @@ class RunLastScript(idaapi.plugin_t):
 	comment = "Run previous script"
 
 	def init(self):
-		print("RunLastScript: init")
 		# Set up new action
 		action_desc = idaapi.action_desc_t(
 			"file:runlastscript",  # The action name. This acts like an ID and must be unique
