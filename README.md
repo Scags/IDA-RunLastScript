@@ -9,7 +9,7 @@ Download runlastscript.py and extract it to your `%IDADIR%/plugins/` directory.
 
 Or
 
-- Ctrl+F7
+- Ctrl+Shift+F7
 
 # Caveats
 If a python script entraps its code within a `__name__ == "__main__"`, it will not run correctly.

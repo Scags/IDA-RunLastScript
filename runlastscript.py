@@ -30,7 +30,7 @@ class RunLastScript(idaapi.plugin_t):
 			"file:runlastscript",  # The action name. This acts like an ID and must be unique
 			"Run Previous Script file",  # The action text.
 			LastScriptAH(),  # The action handler.
-			"Ctrl+F7",  # Optional: the action shortcut
+			"Ctrl+Shift+F7",  # Optional: the action shortcut
 			# Optional: the action tooltip (available in menus/toolbar)
 			"Execute the previous script file",
 			64  # Optional: the action icon (shows when in menus/toolbars)
